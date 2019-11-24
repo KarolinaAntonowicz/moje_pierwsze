@@ -21,7 +21,13 @@ namespace ConsoleApp1ierwsza
                 int menuOption = Convert.ToInt32(Console.ReadLine());
                 if (menuOption == 5)
                     break;
+
                 int a = Convert.ToInt32(Console.ReadLine());
+                int b = Convert.ToInt32(Console.ReadLine());
+                if (menuOption == 1)
+                {
+                    Console.WriteLine(a + b);
+                }
 
 
             }
