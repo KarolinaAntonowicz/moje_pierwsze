@@ -10,11 +10,16 @@ namespace ConsoleApp1ierwsza
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1.Dodaj liczby");
-            Console.WriteLine("2.Odejmij liczby");
-            Console.WriteLine("3.Pomnóż liczby");
-            Console.WriteLine("4.Podziel liczby");
-            Console.WriteLine("5. Wyjście");
+            while (true)
+            {
+                Console.WriteLine("1.Dodaj liczby");
+                Console.WriteLine("2.Odejmij liczby");
+                Console.WriteLine("3.Pomnóż liczby");
+                Console.WriteLine("4.Podziel liczby");
+                Console.WriteLine("5. Wyjście");
+                int menuOption = Convert.ToInt32(Console.ReadLine());
+            }
+            
 
 
 
